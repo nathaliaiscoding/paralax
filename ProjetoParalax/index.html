@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax</title>
+    <style type="text/css">
+      /* CONFIGURAÇÕES PADRÃO */
+      body,
+      html {
+        margin: 0;
+        font: 16px "Lato", sans-serif;
+        color: #777;
+        height: 100%; /* esse é o segredo do parallax */
+      }
+      .content {
+        color: #777;
+        background-color: #fff;
+        text-align: justify;
+        padding: 50px 80px;
+      }
+      h3 {
+        text-transform: uppercase;
+        color: #111;
+        text-align: center;
+      }
+      p {
+        margin-bottom: 20px;
+      }
+      .title-content {
+        position: absolute;
+        left: 0;
+        top: 45%;
+        width: 100%;
+        text-align: center;
+      }
+      .title-content span.title {
+        color: #fff;
+        background-color: #111;
+        padding: 18px;
+        font-size: 25px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+      }
+
+      /* EFEITO PARALLAX */
+      .caixa1,
+      .caixa2,
+      .caixa3,
+      .caixa4,
+      .caixa5,
+      .caixa6 {
+        position: relative;
+        height: 100%;
+        opacity: 0.6;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+      }
+      .caixa1 {
+        background-image: url(imagens/imagem1.jpg);
+      }
+      .caixa2 {
+        background-image: url(imagens/imagem2.jpg);
+      }
+      .caixa3 {
+        background-image: url(imagens/imagem3.jpg);
+      }
+      .caixa4 {
+        background-image: url(imagens/imagem4.jpg);
+      }
+      .caixa5 {
+        background-image: url(imagens/imagem5.jpg);
+      }
+      .caixa6 {
+        background-image: url(imagens/imagem6.jpg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="caixa1">
+      <div class="title-content">
+        <span class="title">passeio de balão</span>
+      </div>
+    </div>
+    <div class="content">
+      <h3>Paralax</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus
+        tellus sit amet eleifend fermentum. Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit. Etiam cursus tellus sit amet eleifend
+        fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Etiam cursus tellus sit amet eleifend fermentum. Lorem ipsum dolor sit
+        amet, consectetur adipiscing elit. Etiam cursus tellus sit amet eleifend
+        fermentum.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus
+        tellus sit amet eleifend fermentum. Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit. Etiam cursus tellus sit amet eleifend
+        fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Etiam cursus tellus sit amet eleifend fermentum. Lorem ipsum dolor sit
+        amet, consectetur adipiscing elit. Etiam cursus tellus sit amet eleifend
+        fermentum.
+      </p>
+    </div>
+    <div class="caixa2">
+      <div class="title-content">
+        <span class="title">sinta a liberdade</span>
+      </div>
+    </div>
+    <div class="caixa3"></div>
+    <div class="content">
+      <h3>Paralax</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus
+        tellus sit amet eleifend fermentum. Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit. Etiam cursus tellus sit amet eleifend
+        fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Etiam cursus tellus sit amet eleifend fermentum. Lorem ipsum dolor sit
+        amet, consectetur adipiscing elit. Etiam cursus tellus sit amet eleifend
+        fermentum.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus
+        tellus sit amet eleifend fermentum. Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit. Etiam cursus tellus sit amet eleifend
+        fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Etiam cursus tellus sit amet eleifend fermentum. Lorem ipsum dolor sit
+        amet, consectetur adipiscing elit. Etiam cursus tellus sit amet eleifend
+        fermentum.
+      </p>
+    </div>
+    <div class="caixa4">
+      <div class="title-content">
+        <span class="title">uma nova aventura todos os dias</span>
+      </div>
+    </div>
+    <div class="caixa5"></div>
+    <div class="content">
+      <h3>Paralax</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus
+        tellus sit amet eleifend fermentum. Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit. Etiam cursus tellus sit amet eleifend
+        fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Etiam cursus tellus sit amet eleifend fermentum. Lorem ipsum dolor sit
+        amet, consectetur adipiscing elit. Etiam cursus tellus sit amet eleifend
+        fermentum.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus
+        tellus sit amet eleifend fermentum. Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit. Etiam cursus tellus sit amet eleifend
+        fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Etiam cursus tellus sit amet eleifend fermentum. Lorem ipsum dolor sit
+        amet, consectetur adipiscing elit. Etiam cursus tellus sit amet eleifend
+        fermentum.
+      </p>
+    </div>
+    <div class="caixa6">
+      <div class="title-content">
+        <span class="title">marque suas férias hoje mesmo</span>
+      </div>
+    </div>
+  </body>
+</html>
